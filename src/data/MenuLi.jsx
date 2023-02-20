@@ -4,7 +4,7 @@ const MenuLi = [
         category: "Dinner",
         itemName: "Chicken Biryani",
         price: "199 ₹",
-        image: "/assets/biryani.jpg",
+        image: "./assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
@@ -12,7 +12,7 @@ const MenuLi = [
         category: "Breakfast",
         itemName: "Chicken Biryani",
         price: "199 ₹",
-        image: "/assets/biryani.jpg",
+        image: "./assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
@@ -20,7 +20,7 @@ const MenuLi = [
         category: "Lunch",
         itemName: "Chicken Biryani",
         price: "199 ₹",
-        image: "/assets/biryani.jpg",
+        image: "./assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
@@ -28,7 +28,7 @@ const MenuLi = [
         category: "Dinner",
         itemName: "Chicken Biryani",
         price: "199 ₹",
-        image: "/assets/biryani.jpg",
+        image: "../assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
@@ -36,7 +36,7 @@ const MenuLi = [
         category: "Dinner",
         itemName: "Chicken Biryani",
         price: "199 ₹",
-        image: "/assets/biryani.jpg",
+        image: "assets/biryani.jpg",
         Type: "Non-Veg"
     },
 ];

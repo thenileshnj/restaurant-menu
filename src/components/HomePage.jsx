@@ -36,7 +36,7 @@ console.log(uniqueCategory);
      </div>
 
      {/* Menu category items  */}
-      <div className='flex pt-10 gap-4 justify-center '>
+      <div className='flex flex-wrap pt-10 gap-4 justify-center '>
             {
               uniqueCategory.map((data) => {
                 return <div className='bg-purple-600 p-3 rounded-l' onClick={() => filterItem(data)}> {data} </div>
@@ -46,7 +46,7 @@ console.log(uniqueCategory);
       </div>
 
 
-     <div className='flex justify-center gap-3 mt-12'>
+     <div className='flex flex-wrap justify-center mx-auto gap-3 mt-12  w-4/5 h-24'>
           <MenuCard menuData={menuData} />
      </div>
     </>
