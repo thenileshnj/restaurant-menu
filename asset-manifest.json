@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/restaurant-menu/static/css/main.c880eab7.css",
-    "main.js": "/restaurant-menu/static/js/main.5aa23c38.js",
-    "static/media/biryani.jpg": "/restaurant-menu/static/media/biryani.9ed119fe55015a5f2717.jpg",
+    "main.js": "/restaurant-menu/static/js/main.931a7889.js",
+    "static/media/Thali.jpeg": "/restaurant-menu/static/media/Thali.0c97e5a39d1830d96871.jpeg",
     "index.html": "/restaurant-menu/index.html",
     "main.c880eab7.css.map": "/restaurant-menu/static/css/main.c880eab7.css.map",
-    "main.5aa23c38.js.map": "/restaurant-menu/static/js/main.5aa23c38.js.map"
+    "main.931a7889.js.map": "/restaurant-menu/static/js/main.931a7889.js.map"
   },
   "entrypoints": [
     "static/css/main.c880eab7.css",
-    "static/js/main.5aa23c38.js"
+    "static/js/main.931a7889.js"
   ]
 }
