@@ -10,34 +10,58 @@ const MenuLi = [
     {
         id: 2,
         category: "Breakfast",
-        itemName: "Chicken Biryani",
-        price: "199 ₹",
+        itemName: "Samosa",
+        price: " 20 ₹",
         image: "./assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
         id: 3,
         category: "Lunch",
-        itemName: "Chicken Biryani",
-        price: "199 ₹",
+        itemName: "Paneer Masala",
+        price: "299 ₹",
         image: "./assets/biryani.jpg",
         Type: "Non-Veg"
     },
     {
         id: 4,
         category: "Dinner",
-        itemName: "Chicken Biryani",
+        itemName: "Veg Biryani",
         price: "199 ₹",
         image: "../assets/biryani.jpg",
-        Type: "Non-Veg"
+        Type: "Veg"
     },
     {
         id: 5,
         category: "Dinner",
-        itemName: "Chicken Biryani",
+        itemName: "Dal Tadka",
         price: "199 ₹",
         image: "assets/biryani.jpg",
+        Type: "Veg"
+    },
+    {
+        id: 6,
+        category: "Dinner",
+        itemName: "Chicken Handi",
+        price: "375 ₹",
+        image: "./assets/biryani.jpg",
         Type: "Non-Veg"
+    },
+    {
+        id: 7,
+        category: "Breakfast",
+        itemName: "Alu Vadaa",
+        price: " 20 ₹",
+        image: "./assets/biryani.jpg",
+        Type: "Veg"
+    },
+    {
+        id: 8,
+        category: "Lunch",
+        itemName: "Rice Plate",
+        price: "99 ₹",
+        image: "./assets/biryani.jpg",
+        Type: "Veg"
     },
 ];
 
