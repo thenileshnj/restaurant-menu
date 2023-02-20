@@ -1,7 +1,19 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import Thali from "../assets/Thali.jpeg";
 
 const MenuCard = ({ menuData }) => {
+
+
+
+  
+
+
+  const AddToCardNotify = (item) => {
+    toast.success(item + "Added to Card")
+  };
+
   return (
     <>
       {menuData.map((data) => {
@@ -15,12 +27,17 @@ const MenuCard = ({ menuData }) => {
               <h3>{data.itemName}</h3>
               <p>Price {data.price}</p>
             </div>
-            <button className="bg-green-500 px-2 py-1 rounded-xl hover:bg-yellow-400 ">
+            <button
+              onClick={() => AddToCardNotify(data.itemName)}
+              className="bg-green-500 px-2 py-1 rounded-xl hover:bg-yellow-400 "
+            >
               Add To Card
             </button>
           </div>
         );
       })}
+
+      <ToastContainer />
     </>
   );
 };
