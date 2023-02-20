@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/restaurant-menu/static/css/main.72693ad7.css",
-    "main.js": "/restaurant-menu/static/js/main.5450d26f.js",
+    "main.css": "/restaurant-menu/static/css/main.c880eab7.css",
+    "main.js": "/restaurant-menu/static/js/main.5aa23c38.js",
+    "static/media/biryani.jpg": "/restaurant-menu/static/media/biryani.9ed119fe55015a5f2717.jpg",
     "index.html": "/restaurant-menu/index.html",
-    "main.72693ad7.css.map": "/restaurant-menu/static/css/main.72693ad7.css.map",
-    "main.5450d26f.js.map": "/restaurant-menu/static/js/main.5450d26f.js.map"
+    "main.c880eab7.css.map": "/restaurant-menu/static/css/main.c880eab7.css.map",
+    "main.5aa23c38.js.map": "/restaurant-menu/static/js/main.5aa23c38.js.map"
   },
   "entrypoints": [
-    "static/css/main.72693ad7.css",
-    "static/js/main.5450d26f.js"
+    "static/css/main.c880eab7.css",
+    "static/js/main.5aa23c38.js"
   ]
 }
